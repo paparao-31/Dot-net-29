@@ -1,0 +1,92 @@
+
+body{
+    height:100px;
+}
+
+.box1{
+    padding: 10px;
+    background-color:rgb(0, 17, 255);
+    margin:10px;
+    font-size: x-large;
+    color: rgb(181, 181, 113);
+    position:static;
+    border:1px solid;
+    width:20px;
+    border-radius:50px;
+    display: flex;
+    justify-content:center;
+}
+.box1{
+    left:20px;
+}
+.box2{
+    padding: 10px;
+    background-color:red;
+    margin:100px;
+    font-size: x-large;
+    color: rgb(181, 181, 113);
+    position:relative;
+    border:1px solid;
+    height:70px;
+    width:80px;
+    border-radius:50px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.box2{
+    right:40px;
+    bottom:50px;
+}
+.box3{
+    padding: 10px;
+    background-color:red;
+    margin:100px;
+    font-size: x-large;
+    color: rgb(181, 181, 113);
+    position:absolute;
+    border:1px solid;
+    height:70px;
+    width:80px;
+    border-radius:50px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.box3{
+    right:100px;
+    top:50px;
+}
+.box4{
+    padding: 10px;
+    background-color:rgb(0, 255, 47);
+    margin:100px;
+    font-size: x-large;
+    color: rgb(181, 181, 113);
+    position:fixed;
+    border:1px solid;
+    height:40px;
+    width:40px;
+    border-radius:50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.box4{
+    right:100px;
+    bottom:100px;
+}
+.ab{
+ border:1px solid;
+ height:40vh;
+ border-radius:10px;
+
+}
+div.sticky {  
+    position: sticky;
+    top:10px;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+    border-radius:10px;
+}

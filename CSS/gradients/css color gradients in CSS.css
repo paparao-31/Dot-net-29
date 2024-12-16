@@ -1,0 +1,27 @@
+.a{
+    background-image: linear-gradient(red,yellow,green);
+    height: 10vh;
+}
+.b{
+    background-image: linear-gradient(red ,yellow, orange ,green, blue, black, purple);
+    height: 10vh;
+}
+.c{
+    background-image: linear-gradient(red 10%, green 85%, blue 90%);
+    height: 10vh;
+
+}
+.d{
+    background-image:(to right, red,orange,yellow,green, blue,black,purple);
+    height: 5vh;
+    text-align: center;
+    color: grey;
+}
+.e{
+    background-image: radial-gradient(red,orange,yellow,green);
+    height: 30vh;
+    width: 30vw;
+    box-shadow: 6px 7px 8px 8px black
+    
+  
+}

@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+:root{
+    --color1:rgb(8, 138, 8);
+    --color2:rgb(190, 44, 44);
+}
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    align-items: center;
+    gap: 10px;
+    font-size: 48px;
+}
+.logo img{
+    height:60px ;
+}
+.name span{
+    color: var(--color1);
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.navigation{
+    display:flex ;
+    gap:20px ;
+}
+.navigation a{
+    font-size: 24px;
+    color:rgb(151, 142, 142) ;
+    text-decoration: none;
+}
+button{
+    background-color:rgb(240, 235, 235);
+    color: black;
+    font-size:24px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.navigation a:hover{
+    color: var(--color1);
+}
+button:hover{
+    background-color: var(--color1);
+}
+.heading{
+    text-align: center;
+    font-size: 32px;
+    /*text-shadow: 2px 2px 3px var(--color1);*/
+    background: linear-gradient(to right,var(--color1) blue);
+    --webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+section{
+    padding: 50px 100px;
+}
+#banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.battenleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid:20px ;
+}
+.battenleft h2{
+    font-size: 32px;
+}
+.battenleft p{
+    font-size: 24px;
+
+}
+.buttens:nth-child(2){
+    background-color: blueviolet;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+img{
+    height:500px;
+    width:500px;
+}
+
+
+
+#skills{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+#skills img{
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*media queres*/
+@media (max-width:570px){
+header{
+    flex-direction: column;
+}
+.menu{
+     flex-direction: column;
+}
+.navigation{
+    flex-direction: column;
+}
+}
+@media (min-width:571px) and (max-width:776px){
+    header{
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+    }
+
+}
+@media (min-width:770px) and (max-width:1080px){
+
+}
+#banner{
+    flex-direction: column;
+
+}
+section{
+    padding: 30px;
+
+}
+.lottie{
+    width: 500px;
+    height: 500px;
+}
+#about{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.aboutPic{
+    height:100px;
+    clip-path: circle(150px);
+    filter: grayscale();
+
+}
+.aboutPic:hover{
+    filter: none;
+}
+#about p{
+    font-size: 24px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+.b{
+    gap:3%;
+}
+
+.a{
+background-color: rgb(237, 234, 234);
+color: red;
+border-color: red;
+border: solid;
+height: 10vh;
+padding: 20px 40px 40px 0px;
+font-weight:bold;
+
+}
+.b{
+   border: 2px solid; 
+   color: green;
+   height: 5vh;
+   padding: 10px 5px  0px 0px;
+   background-color:rgb(237, 234, 234) ;
+   border-color: red;
+   font-weight: bold;
+}
+.c{
+ border:solid;
+ border-color: red;
+ color: blue;
+ height: 10vh;
+ width: 30vw;
+ font-weight:bold;
+ padding: 30px 20px 20px 0px;  /*left top bottom right*/
+ background-color:rgb(237, 234, 234) ;
+
+}
+.e{
+    border: 2px solid;
+    color: blue;
+    background-color:rgb(237, 234, 234) ;
+    font-weight: bold;
+    padding: 30px 20px 20px 0px;
+    height: 10vh;
+    width: 30vw;
+    border-color: red;
+    margin-top: 10px;
+}
+.f{
+    border: 2px solid;
+    color: blue;
+    margin-top:6px;
+    height: 10vh;
+    width: 35vw;
+    padding:20px 20px 20px 20px;
+    margin-left:8px;
+    border-color: red;
+    background-color:rgb(237, 234, 234) ;
+    font-weight: bold;
+
+
+}
+.g{
+    border: 2px solid;
+    height: 10vh;
+    color: blue;
+    background-color:rgb(237, 234, 234) ;
+    margin-top: 5px;
+    padding: 20px 20px 2px 0px;
+    font-weight: bold;
+    border-color: red;
+
+}

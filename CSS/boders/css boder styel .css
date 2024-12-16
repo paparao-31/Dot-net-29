@@ -1,0 +1,36 @@
+.a{
+    border: 2px black dotted;
+}
+.b{
+    border: 2px black dashed;
+}
+.c{
+    border: 2px black solid;
+}
+.d{
+    border: 2px black double;
+}
+.e{
+    border: groove;
+}
+.f{
+    border:ridge;
+}
+.g{
+    border:inset;
+}
+.h{
+    border: outset;
+}
+.i{
+    border:  outset;
+}
+.n{
+    border: 8px red solid;
+    border-radius: 20px;
+    color: blue;
+    background-color: orange;
+    height: 34px;
+    width: 222px;
+    
+}

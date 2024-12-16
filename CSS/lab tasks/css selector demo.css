@@ -1,0 +1,38 @@
+.a{
+    border: 2px solid black;
+    height: 5vh;
+    align-content: center;
+    font-style: italic;
+    font-weight: lighter;
+    color: gray;
+}
+.a::first-letter{
+    color: red;
+    font-size: 25px;
+    font-weight: bolder;}
+.b{
+    color: brown;
+}
+.c{
+    border: 2px solid black;
+    height: 5vh;
+    align-content: center;
+    font-style: italic;
+    font-weight: lighter;
+    color:gray;
+} 
+.c::first-letter{
+    color: red;
+    font-size: 25px;
+    font-weight: bolder;}
+    .d{
+        border: 2px solid black;
+        height: 5vh;
+        align-content: center;
+        font-style:italic ;
+        font-weight: lighter;
+        color: gray;
+        background-color: rgb(113, 220, 113);
+
+    }
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Example:Using Rowspan</h1>
+    <table border="1" cellspacing="0">
+        <tr>
+            <th rowspan="3">Name</th>
+            <th>Age</th>
+        </tr>
+       
+        <tr>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>45</td>
+            </tr>
+        <tr>
+            <td colspan="2">Toble Rows:3</td>
+        </tr>
+        
+    </table>
+    <br></br>
+
+    <h1>Using colspan</h1>
+    <table border="1" cellspacing="0">
+    <tr>
+        <th colspan="2">Name</th>
+        <th>Details</th>
+    </tr>
+    <tr>
+        <td>Jhon</td>
+        <td>Age:25</td>
+        <td>city:newyork</td>
+    </tr>
+    <tr>
+        <td>Jane</td>
+        <td>Age:30</td>
+        <td>city:London</td>
+    </tr>
+    <tr>
+        <td colspan="3">This row spans across all colums</td>
+    </tr>
+
+    </table>
+    <br></br>
+    <h1>Combining Rowspan and colsan</h1>
+    <table border="1" cellspacing="0">
+        <tr>
+            <th colspan="3">Project information</th>
+        </tr>
+    </tr>
+    <tr>
+        <td rowspan="4">Jhon</td>
+    </tr>
+        
+        <tr>
+            <td>Task1</td>
+            <td>completed</td>
+        
+        </tr>
+        <tr>
+            <td>Task2</td>
+            <td>In Project</td>
+        
+        </tr>
+        <tr>
+            <td>Task3</td>
+            <td>Pending</td>
+        
+        </tr>
+    </table>
+    <br></br>
+    <h1>Combining Rowspan and colsan</h1>
+    <table border="1" cellspacing="0">
+        <tr>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Contact</th>
+            <th rowspan="2">City</th>
+        <tr>
+            <td>Email</td>
+            <td>phone</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Jhon@example.com</td>
+            <td>123-456-7890</td>
+            <td>NewYork</td>
+        </tr>
+        <tr>
+            <td>jane</td>
+            <td>jane@example.com</td>
+            <td>987-654-3210</td>
+            <td>Londan</td>
+        </tr>
+    </table>
+    <br></br>
+    <h1>nested Rowspan and colspan</h1>
+    <table border="" cellspacing="0">
+       <tr>
+        <th rowspan="2">Department</th>
+        <th colspan="3">Employees</th>
+       </tr>
+       <tr>
+          <td>name</td>
+          <td>Role</td>
+          <td>Year</td> 
+       </tr>
+       <tr>
+        <td rowspan="2">HR</td>
+        <td>jhone</td>
+        <td>Mznager</td>
+        <td>5</td>
+       </tr>
+       <tr>
+        <td>jane</td>
+        <td>assistant</td>
+        <td>2</td>
+       </tr>
+       <tr>
+        <td rowspan="2">IT</td>
+        <td>milk</td>
+        <td>Devoloper</td>
+        <td>3</td>
+       </tr>
+       <tr>
+        <td>alice</td>
+        <td>Admin</td>
+        <td>1</td>
+        
+       </tr>
+    </table>
+
+
+</body>
+</html>

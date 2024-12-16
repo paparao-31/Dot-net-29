@@ -1,0 +1,30 @@
+
+.a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.b{
+    color: black;
+    text-shadow:0px 0px 1px;
+
+}
+.c{
+    text-shadow:0px 0px 12px rgba(0,0,0,7)
+
+}
+.d{
+    color: black;
+    text-shadow:1px 2px 2px red, -2px 2px 2px blue;
+}
+.e{
+    color: white;
+    text-shadow: 1px 2px 4px magenta, 4px 2px 7px magenta
+}
+.q{
+   background-color: gray;
+   color:white;
+   text-align: center;
+   
+}

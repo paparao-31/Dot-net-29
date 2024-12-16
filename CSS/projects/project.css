@@ -1,0 +1,15 @@
+.body{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(234, 131, 131);
+}
+.n{
+    display:flex;
+    background-color: rgb(180, 158, 158);
+    border-radius: 20px;
+    height: 400px;
+    padding: 40px;
+    margin: 20px 20px 20px 20px;
+    
+}

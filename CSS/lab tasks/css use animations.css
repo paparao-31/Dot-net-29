@@ -1,0 +1,27 @@
+.ball{
+    height: 100px;
+    width:100px;
+    display:grid;
+    flex-direction:row;
+    background-color: red;
+    border-radius:50px;
+    animation-name:moving-ball;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+    position:absolute;
+    
+}
+@keyframes moving-ball
+{
+
+    0%{
+top: 0%;
+left:0%;
+
+    }
+      100%{
+        top:100%;
+        left:100%;
+    }
+}
