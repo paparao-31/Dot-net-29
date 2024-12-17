@@ -17,7 +17,7 @@ var a,b;
  function maximum(a,b)
  {
     if(a>b)
-        return a
+        return a 
     else 
     return b
  }
@@ -60,13 +60,14 @@ var a,b;
 
    function year(n)
    {
-       if(n%4==0)
+       if(n%4==0 && n%100!=0 || n%400==0)
         return "leap year"
-    else 
+       else 
        return "not leap year"
    }
-   console.log(year(2020))
-   console.log(year(2006))
+   console.log(year(2024))
+   console.log(year(1500))
+   console.log(year(1900))
 
    /*Que 6 : Write a 'JavaScript' program to check whether the string
     is uppercase or lowercase alphabet. */
