@@ -127,6 +127,34 @@ password(1001,1011);
 password(1000,1010);
 password(1001,1010);
 
+/*--------------------------------------*/
+
+const correctUserId = 1001;
+const correctPassword = 1010;
+const userName = "DANNY";
+
+let userId = prompt("Enter your ID:");
+
+userId = Number(userId);
+
+switch (userId) {
+    case correctUserId:
+        
+        let password = prompt("Enter your Password:");
+        password = Number(password); r
+        
+        switch (password) {
+            case correctPassword:
+                console.log(`Welcome, ${userName}!`);
+                break;
+            default:
+                console.log("Incorrect Password");
+        }
+        break;
+
+    default:
+        console.log("Incorrect ID");
+}
 
 
 
