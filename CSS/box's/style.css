@@ -38,7 +38,8 @@
     gap:5px;
     height:50vh;
     gap:5px;
-    padding:10px; 
+    padding:10px;
+    width:655px; 
 
 }
 .b{
@@ -57,4 +58,8 @@ footer{
     text-align: center;
     margin:8px;
     
+}
+body{
+    padding:30px;
+    margin:10px;
 }
