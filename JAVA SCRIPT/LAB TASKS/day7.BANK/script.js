@@ -186,7 +186,7 @@ function create(){
         create()
     }
     else if(amt<2000){
-        alert("Initial deposit not lessthan 2000")
+        alert("Initial deposit not lessthan 2000");
         create()
     }
     else {
@@ -202,8 +202,7 @@ function dep(){
         amt+=dep;
         alert("Amount deposited successfully")
         alert("amount after depositing is :"+ amt);
-        bankin()
-
+        bankin();
     }
     else{
         alert(" Invalid amount to deposit ");
