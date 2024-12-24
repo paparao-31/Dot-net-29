@@ -11,14 +11,14 @@ console.log(x)
 -----------
 	Write a 'JavaScript' program to sort the numbers array using 
     selection sort technique without using predefined function.
-*/ 
+
 
 var x=[(prompt("enter array"))];
 let z=n.slice().sort((a,b)=>a-b);
 console.log(z)
 let y=x.slice().sort((a,b)=>b-a);
 console.log(y)
-let n=x.length
+let n=x.length */ 
 
 // for(let i=0;i<n;i++)
 //     {
@@ -53,7 +53,12 @@ let n=x.length
 --------
 	write a 'JavaScript' program to Sort the array [45, 3, 25, 78, 12]
     in ascending and descending order using predefined method.
-    */
+    var x=[(prompt("enter array"))];
+let z=n.slice().sort((a,b)=>a-b);
+console.log(z)
+let y=x.slice().sort((a,b)=>b-a);
+console.log(y)
+let n=x.length */ 
 
     
 
@@ -64,8 +69,25 @@ let n=x.length
 Que 5 :
 -------
 	Write a 'JavaScript' program to Filter Even and Odd Numbers from array in separate arrays.
+	*/
+  var even,odd;
+  function Filter()
+  {
+	for(var i=0;i<n;i++)
+	{
+		i++;
+	}
+	if(i%2==0)
+		console.log(even)
+	else
+	console.log(odd)
+  }
+  Filter(10);
 
-Que 6 :
+
+
+
+/*Que 6 :
 --------
 	Write a 'JavaScript' program to create an array of 10 image names an display the images on the webpage using forEach method.
 
