@@ -3,15 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shopping List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f5;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .input-group input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .input-group button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #5cb85c;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .input-group button:hover {
+            background-color: #4cae4c;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: #f9f9f9;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        ul li button {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 3px;
+            background-color: #d9534f;
+            color: white;
+            font-size: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        ul li button:hover {
+            background-color: #c9302c;
+        }
+    </style>
 </head>
-<body> 
-<h2>My First JavaScript</h2>
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
-<p id="demo"></p>
-<button type="button" onclick="document.write(5+6)">try it</button>
+<body>
+    <div class="container">
+        <h1>Shopping List</h1>
+        <div class="input-group">
+            <input type="text" id="itemInput" placeholder="Add a new item...">
+            <button onclick="addItem()">Add</button>
+        </div>
+        <ul id="shoppingList"></ul>
+    </div>
 
+    <script>
+        function addItem() {
+            const input = document.getElementById('itemInput');
+            const itemText = input.value.trim();
+
+            if (itemText !== "") {
+                const listItem = document.createElement('li');
+
+                const itemTextNode = document.createElement('span');
+                itemTextNode.textContent = itemText;
+                
+                const deleteButton = document.createElement('button');
+                deleteButton.textContent = "Delete";
+                deleteButton.onclick = function () {
+                    listItem.remove();
+                };
+
+                listItem.appendChild(itemTextNode);
+                listItem.appendChild(deleteButton);
+                document.getElementById('shoppingList').appendChild(listItem);
+                input.value = "";
+            } else {
+                alert("Please enter an item.");
+            }
+        }
+    </script>
 </body>
 </html>
