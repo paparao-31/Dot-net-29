@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0;
+    right: 100%;
+    z-index: +1;
+
+}
+header h1{
+    font-size: 50px;
+    height: 55px;
+    
+
+}
+header img{
+    height: 150px;
+    width: 180px;
+    border-radius: 180px;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px 50px;
+}
+.product img{
+    height: 280px;
+
+}
+.product{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 3px #333, -2px -3px 3px #333, -2px 3px 3px #333, 2px -3px 3px #333;
+
+}
+.product h2{
+    height: 50px;
+}
+.product p{
+    font-size: 22px;
+    height: 22px;
+}
+.product img{
+    height: 300px;
+    width: 350px;
+border-radius: 1rem;    
+}
+.product:hover{
+    transform: scale(1.01);
+    box-shadow: 2px 3px 3px #d708c9, -2px -3px 3px #9f3098, -2px 3px 3px #9f3098, 2px -3px 3px #9f3098;
+
+}
+button{
+    width: 250px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    font-size: 15px;
+}
+button:hover{
+    transform: scale(1.08);
+    box-shadow: 2px 3px 3px #333, -2px -3px 3px #333, -2px 3px 3px #333, 2px -3px 3px #333;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20px;
+    font-size: 18px;
+}

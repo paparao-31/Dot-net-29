@@ -1,0 +1,70 @@
+Que 1 :
+--------
+
+	Change Body Color with Random Colors on Button Click
+
+You are creating a webpage where users can click a button to change the background color of the entire page to a random color. This can be useful for creating interactive and visually appealing web applications.
+
+Steps:
+
+	-> Create an HTML file with a button.
+
+	-> Add a JavaScript function that generates a random color.
+
+	-> Attach an event listener to the button to change the background color when clicked.
+
+============================================================================================
+
+Que 2 :
+--------
+	
+	Show Input Text in Paragraph
+
+You want to create a webpage where users can type into a text box, and the input will be dynamically displayed in a paragraph below the text box. This feature is commonly used in form validations or live search suggestions.
+
+Steps:
+
+	-> Create an HTML file with a text input box and a paragraph.
+
+	-> Add a JavaScript function to capture the input event.
+
+	-> Update the paragraph text with the input value.
+
+
+============================================================================================
+Que 3 :
+--------
+
+	Change Image on Mouse Hover
+
+You want to create a webpage where an image changes when a user hovers over it. This can enhance user experience by providing interactive and dynamic content.
+
+Steps:
+
+	-> Create an HTML file with an image element.
+
+	-> Add a JavaScript function to handle the mouseover and mouseout events.
+
+	-> Change the image source on hover.
+=============================================================================================
+
+Que 4 :
+---------
+	Change Text Size and Color on Mouse Hover
+
+Steps:
+	-> Create a paragraph element in the HTML file.
+
+	-> Add event listeners for mouseover and mouseout events to change the text size and color when the mouse hovers over and leaves the text.
+
+=========================================================================================
+
+Que 5 :
+--------
+
+	Change Clipboard Text on Copy
+Steps:
+	-> Create a textarea element in the HTML file.
+
+	-> Add an event listener to the textarea for the copy event to change the clipboard text when the user copies content from the textarea.
+
